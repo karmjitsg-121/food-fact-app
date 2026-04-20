@@ -3,8 +3,8 @@ import FoodCard from "./FoodCard";
 function FoodList({ products }) {
   return (
     <div>
-      {products.map((item) => (
-        <FoodCard key={item.code} product={item} />
+      {products.map((p) => (
+        <FoodCard key={p.code} product={p} />
       ))}
     </div>
   );
